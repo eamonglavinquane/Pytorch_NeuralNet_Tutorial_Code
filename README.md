@@ -1,2 +1,12 @@
-# Pytorch_NeuralNet_Tutorial_Code
-https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ
+# Pytorch NeuralNet Tutorial Code Learning Tool
+
+Sample Code of a Linear Neural Network and a Convolutional Neural Network created in Pytorch running on CPU with Windows 10 with comments throughout explaining the basics of deep-learning within Pytorch.  
+
+NOTE: it is assumed python and pytorch is installed.
+
+The Linear Neural Network is 4 layer fully connected neural network that inputs flattened 28*28 images from the MNEST dataset
+and predicts the value of hand drawn integers from 0-9. In this example the MNEST dataset is acquired within the code and does not need to be sourced elsewhere.
+
+The Convolutional Neural Network consists of 3 convolutional layers followed by 2 linear/fully-connected layers. The network uses the kaggle "cats and dogs" dataset from Microsoft https://www.microsoft.com/en-us/download/details.aspx?id=54765 which needs to be downloaded and the directory within the code needs to be changed to the folder location. The network outputs a tensor value of 1 or 0 where 1 is a "dog" prediction and 0 is a "cat" prdiction. 
+
+These files were created by following the "sentdex" video tutorial pytorch series on YouTube. ---> https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ
